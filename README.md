@@ -1,5 +1,5 @@
 # Starting out with Python
- Follow along exercises and assignments for an Intro to programming course using Python.
+ Follow along exercises and assignments for an intro to programming course using Python.
 
  From the course syllabus:
 
