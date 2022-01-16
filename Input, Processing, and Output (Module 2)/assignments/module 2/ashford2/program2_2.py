@@ -1,10 +1,7 @@
 # Phillip Shane Ashford 2510522
 
 # ASSIGNMENT
-# Write a program that prompts the user to enter both the numerator and
-#   denominator of an improper fraction. Review the Python math operators on
-#   page 54 and use an f_string to express the improper fraction as a mixed
-#   number.
+# Write a program that prompts the user to enter both the numerator and denominator of an improper fraction. Review the Python math operators on page 54 and use an f_string to express the improper fraction as a mixed number.
 # Example Output
 # Enter the numerator 34
 # Enter the denominator 7
