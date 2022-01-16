@@ -21,7 +21,7 @@
 
 def main():
     # Store tax rate in constant
-    tax_rate = 0.07
+    TAX_RATE = 0.07
 
     # Prompt for unit price
     unit_price = float(input('Enter unit price '))
