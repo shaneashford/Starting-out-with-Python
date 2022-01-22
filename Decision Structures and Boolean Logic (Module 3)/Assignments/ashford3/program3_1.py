@@ -7,7 +7,7 @@
 # Pseudocode
 # Prompt for pay rate and assign to variable (float only)
 # Prompt for hours worked and assign to variable (float only)
-# Calculate overtime pay (if hours worked > than 40, hours worked - 40 = overtime pay) and assign to variable
+# Calculate overtime pay (if hours worked > than 40 then hours worked - 40 = overtime pay) and assign to variable
 # Calculate regular pay (pay rate * hours worked)
 # Calculate overtime pay ((pay rate * 1.5) * overtime hours worked)
 # Calculate total pay (regular pay + overtime pay)
