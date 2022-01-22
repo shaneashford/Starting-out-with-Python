@@ -38,11 +38,11 @@
 # Assign tier pricing to constants
 # Prompt for quantity of Coffee (test for integer)
 # Determine pricing tier with if-else design structure
-# Calculate subtotal and assign to a variable
-# Calculate tax total and assign to a variable
+# Calculate subtotal (subtotal = coffee quantity * tier price) and assign to a variable
+# Calculate tax total (tax total = subtotal * tax rate) and assign to a variable
 # Determine free shipping status and assign to variable
 # Assign shipping fee to a variable
-# Calculate total payable and assign to a variable
+# Calculate total payable (total payable = subtotal + tax total + shipping fee) and assign to a variable
 # Print subtotal
 # Print sales tax
 # Print shipping fee
