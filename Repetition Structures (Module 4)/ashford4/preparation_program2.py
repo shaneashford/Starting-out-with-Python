@@ -7,3 +7,20 @@
 # Phillip Shane Ashford COP 1000
 
 #Pseudocode:
+# Prompt for input and assign to variable
+# Write while loop that specifies sentinel value to exit loop
+    # Write nested if-else decision structure to test for even and odd numbers and report to user.
+
+############################################
+# Prompt for input and assign to variable
+num = int(input('Enter an integer '))
+
+# Write while loop that specifies sentinel value to exit loop
+while num != 0:
+    # Write nested if-else decision structure to test for even and odd numbers and report to user.
+    if num % 2 == 0:
+        print(f'{num} is an even number.')
+        num = int(input('Enter an integer '))
+    else:
+        print(f'{num} is an odd number.')
+        num = int(input('Enter an integer '))
