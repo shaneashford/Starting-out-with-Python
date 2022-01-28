@@ -5,6 +5,24 @@
 
 ############################################
 
-# Phillip Shane Ashford COP 1000
+# Pseudocode:
 
-#Pseudocode:
+# Print 'integer' column heading in a column centered and 7 characters wide, 'squares' column heading right aligned and 8 characters wide, and 'cubes' column heading right aligned and 12 characters wide
+# Write for loop with range function from 5 to 51 with step value of 5
+    # Print the targeted variable in a column centered and 7 characters wide
+    # Print the square of the targeted variable right aligned and 8 characters wide
+    # Print the cube of the targeted variable right aligned and 12 characters wide
+
+############################################
+
+# Print 'integer' column heading in a column centered and 7 characters wide, 'squares' column heading right aligned and 8 characters wide, and 'cubes' column heading right aligned and 12 characters wide
+print(f'{"integer":^7}{"squares":>8}{"cubes":>12}')
+
+# Write for loop with range function from 5 to 51 with step value of 5
+for num in range(5, 51, 5):
+    # Print the targeted variable in a column centered and 7 characters wide
+        print(f'{num:^7,}', end = '')
+    # Print the square of the targeted variable right aligned and 8 characters wide
+        print(f'{num ** 2:>8,}', end = '')
+    # Print the cube of the targeted variable right aligned and 12 characters wide
+        print(f'{num ** 3:>12,}')
