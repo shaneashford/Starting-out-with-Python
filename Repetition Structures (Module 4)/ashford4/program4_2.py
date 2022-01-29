@@ -42,7 +42,7 @@ while counter < 3:
     subtotal = unit_price * quantity
 
     # Print inputs and subtotal for each item
-    print(f'{int(quantity)} of your item "{name}" priced at {unit_price:,.2f} each yields a subtotal of {unit_price * quantity:,.2f}.')
+    print(f'{int(quantity)} of your item "{name}" priced at ${unit_price:,.2f} each yields a subtotal of ${unit_price * quantity:,.2f}.')
 
     # Update the accumulator with each iteration (accumulator + subtotal)
     total = total + subtotal
