@@ -13,6 +13,7 @@
 # Assign start, stop, and step constants to float-to-integer-conversion constants to feed the non-floating-pont-number-supporting range function
 # Write while loop that specifies sentinel value to exit loop
     # Print 'sales tax', 'subtotals', and 'totals' column headings in columns centered and 9 characters wide each
+    # Print underlined headings
     # Write for loop with range function
         # Print subtotal in a column centered and 9 characters wide
         # Print sales tax in a column centered and 9 characters wide
@@ -40,7 +41,10 @@ STEP_VALUE_TO_INT = int(STEP_VALUE * 100)
 # Write while loop that specifies sentinel value to exit loop
 while run == False:
     # Print 'sales tax', 'subtotals', and 'totals' column headings in columns centered and 9 characters wide each
-    print(f'{"subtotal":^9}{"tax":^9}{"total":^9}')
+    print(f'{"subtotal":^9}{"sales tax":^9}{"total":^9}')
+    # Print underlined headings
+    underline = '------'
+    print(f'{underline:^9}{underline:^9}{underline:^9}')
 
     # Write for loop with range function
     for num in range(START_VALUE_TO_INT, STOP_VALUE_TO_INT, STEP_VALUE_TO_INT):
