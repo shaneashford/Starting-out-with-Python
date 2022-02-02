@@ -9,7 +9,7 @@
 
 # Assign tax rate to constant
 # Assign start, stop, and step value for range function to constants
-# Specify starting value of setinel variable
+# Specify starting value of sentinel variable
 # Assign start, stop, and step constants to float-to-integer-conversion constants to feed the non-floating-pont-number-supporting range function
 # Write while loop that specifies sentinel value to exit loop
     # Print 'sales tax', 'subtotals', and 'totals' column headings in columns centered and 9 characters wide each
