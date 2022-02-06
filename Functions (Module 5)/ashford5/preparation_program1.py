@@ -2,8 +2,6 @@
 #
 # Assignment Requirements
 #
-# Two programs are required. In each program:
-#
 # Pseudocode
 #
 # 1. Write a program that contains a main function and a custom, void function named show_larger that takes two random integers as parameters. This function should display which integer is larger and by how much. The difference must be expressed as a positive number if the random integers differ. If the random integers are the same, show_larger should handle that, too. See example outputs. In the main function, generate two random integers both in the range from 1 to 5 inclusive, and call show_larger with the integers as arguments.
